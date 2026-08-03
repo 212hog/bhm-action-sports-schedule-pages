@@ -342,18 +342,36 @@ h3 {
   color: var(--yellow-soft);
 }
 
-.button-disabled {
-  border-color: #6d6d66;
-  background: #2a2a28;
-  color: #bdbdb5;
-  cursor: not-allowed;
-}
-
 .hero-note {
   margin: 1.2rem 0 0;
   color: #989890;
   font-size: 0.9rem;
   font-weight: 650;
+}
+
+.download-qr {
+  display: grid;
+  max-width: 11.875rem;
+  gap: 0.65rem;
+  margin: 1.5rem 0 0;
+}
+
+.download-qr a {
+  display: block;
+  border: 1px solid var(--border-strong);
+  background: #fff;
+}
+
+.download-qr img {
+  width: 100%;
+}
+
+.download-qr figcaption {
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 750;
+  line-height: 1.35;
+  text-align: center;
 }
 
 .hero-visual {
